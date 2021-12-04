@@ -1,14 +1,15 @@
 import unittest
 from arraytools.numarraytools import numarraytools as numtool
 
-class testnumarraytools(unittest.TestCase):
+
+class TestNumArrayTools(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         print('setup testNumArraySearchTool')
         self.arr1 = [2, 3, 6, 1, 9, 4]
         self.arr2 = [0, 1, -1, 2, -2]
         self.arr3 = [-2, -3, -6, -1, -9, -4]
-        self.arr4 = ["a","b","c",2,5]
+        self.arr4 = ["a", "b", "c", 2, 5]
         self.arr5 = []
 
     @classmethod
@@ -32,7 +33,6 @@ class testnumarraytools(unittest.TestCase):
         self.assertFalse(self.numTool4.isnumerial())
         self.assertFalse(self.numTool4.isnumerial())
 
-
     def test_isnull(self):
         self.assertFalse(self.numTool1.isnull())
         self.assertFalse(self.numTool2.isnull())
@@ -48,8 +48,9 @@ class testnumarraytools(unittest.TestCase):
         self.numTool3.append("x")
         self.assertEqual(self.numTool3.arr, [-2, -3, -6, -1, -9, -4])
         self.numTool4.append(100)
-        self.assertEqual(self.numTool4.arr, ["a","b","c",2,5,100])
+        self.assertEqual(self.numTool4.arr, ["a", "b", "c", 2, 5, 100])
         self.numTool5.append("a")
         self.assertEqual(self.numTool5.arr, [])
 
-unittest.main(argv=[""], verbosity=2, exit=False)
+
+

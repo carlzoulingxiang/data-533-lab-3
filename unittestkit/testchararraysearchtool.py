@@ -9,7 +9,7 @@ import unittest
 from arraytools.chararraytools.chararraysearchtool import CharArraySearchTool
 
 
-class TestCharArrayTools(unittest.TestCase):
+class TestCharArraySearchTool(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print("######## Start Testing The CharArraySearchTool Module ########")

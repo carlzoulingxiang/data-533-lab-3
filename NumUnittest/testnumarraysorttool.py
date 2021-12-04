@@ -1,7 +1,8 @@
 import unittest
 from arraytools.numarraytools import numarraysorttool as numsort
 
-class testnumarraysorttool(unittest.TestCase):
+
+class TestNumArraySortTool(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         print('setup testnumarraysorttool')
@@ -41,9 +42,9 @@ class testnumarraysorttool(unittest.TestCase):
         self.numSort1.DescendingSort()
         self.assertEqual(self.numSort1.arr, [9, 6, 4, 3, 2, 1])
         self.numSort2.DescendingSort()
-        self.assertEqual(self.numSort2.arr, [2,1,0,-1,-2])
+        self.assertEqual(self.numSort2.arr, [2, 1, 0, -1, -2])
         self.numSort3.DescendingSort()
-        self.assertEqual(self.numSort3.arr, [-1,-2,-3,-4,-6,-9])
+        self.assertEqual(self.numSort3.arr, [-1, -2, -3, -4, -6, -9])
         self.numSort4.DescendingSort()
         self.assertEqual(self.numSort4.arr, [0, 0, 0, 0, 0, 0])
         self.numSort5.DescendingSort()
@@ -60,10 +61,6 @@ class testnumarraysorttool(unittest.TestCase):
         self.assertEqual(self.numSort4.arr, self.arr4)
         self.numSort5.Unsort()
         self.assertEqual(self.numSort5.arr, self.arr5)
-
-
-unittest.main(argv=[""], verbosity=2, exit=False)
-
 
 
 

@@ -1,7 +1,7 @@
 import unittest
 from arraytools.numarraytools import numarraysearchtool as numst
 
-class testnumarraysearchtool(unittest.TestCase):
+class TestNumArraySearchTool(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         print('setup testNumArraySearchTool')
@@ -47,7 +47,7 @@ class testnumarraysearchtool(unittest.TestCase):
         self.assertEqual(self.numSearch5.searchTarget(2), 0)
 
 
-unittest.main(argv=[""], verbosity=2, exit=False)
+
 
 
 

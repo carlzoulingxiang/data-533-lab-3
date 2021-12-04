@@ -1,8 +1,10 @@
-# Data533 Lab 2
-- Students: Ling Xiang Zou (60038213), Tang Ao (64277791)
-- Date: Nov 26, 2021
+# Data533 Lab 3
+- Students: Ling Xiang Zou (60038213), Ao Tang (64277791)
+- Date: Dec 4, 2021
 
-In this lab, we aim to create a package called arraytools for searching and sorting arrays of characters and numbers.
+In this lab, we wrote code for unit tests in Python using the unittest framework to testing the modules and functions that we develop in our lab 2. This lab has six test classes, three of them in the directory ```/NumUnittest```, which are test classes for the subpackage **numarraytools**, and the other three in the directory ```/unittestkit```, which are test classes for the subpackage **chararraytools**.
+
+Also, We created a test suite in ```testsuit.ipynb```to hold the collection of test classes that we developed. 
 
 The following are the structure and the function details of arraytools:
 

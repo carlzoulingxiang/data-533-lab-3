@@ -65,3 +65,5 @@ class TestCharArrayTools(unittest.TestCase):
         self.assertEqual(self.t3.arr, ['r', 'r', 'e', 'p', 'h', 'm'])
         self.assertEqual(self.t4.arr, ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'm'])
         self.assertEqual(self.t5.arr, ['a', 'g', 'c', 1, 'm'])
+
+        

@@ -9,7 +9,7 @@ import unittest
 from arraytools.chararraytools.chararraysorttool import CharArraySortTool
 
 
-class TestCharArrayTools(unittest.TestCase):
+class TestCharArraySortTool(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print("######## Start Testing The CharArraySortTool Module ########")
